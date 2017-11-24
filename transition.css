@@ -1,0 +1,53 @@
+div
+{
+	width: 1000px;
+	background-color: #EEE;
+	padding: 5px;
+	border: 2px solid #2e3c54
+
+}
+div p
+{
+	width: 120px;
+	background-color: red;
+	margin-bottom: 5px;
+	border: 2px solid red;
+	transition-property: width;
+	transition-duration: 3s;
+	transition-timing-function: ease;
+}
+
+div p:first-of-type
+{
+/*transition-timing-function: ease;*/
+transition-delay: 1s;
+
+}
+div p:nth-of-type(2)
+{
+/*transition-timing-function: linear;*/
+transition-delay: 2s;
+
+}
+div p:nth-of-type(3)
+{
+/*transition-timing-function: ease-in;*/
+transition-delay: 3s;
+
+}
+div p:nth-of-type(4)
+{
+/*transition-timing-function: ease-out;*/
+transition-delay: 4s;
+
+}
+div p:last-of-type
+{
+/*transition-timing-function: ease-in-out;*/
+transition-delay: 5s;
+
+}
+div:hover p
+{
+	width: 200px;
+}

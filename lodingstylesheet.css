@@ -1,0 +1,31 @@
+*
+{
+	box-sizing: border-box;
+}
+.loading
+{
+	width: 200px;
+	height: 50px;
+	margin: 20px auto;
+	position: relative;
+
+}
+.loading span
+{
+	display: block;
+	position: absolute;
+
+	height:5px;
+	width: 9px;
+    background-color: #9b59b6;
+}
+.loading span:nth-of-type(2)
+{
+left: 10px;
+}
+
+.loading span :last-of-type
+{
+	left: 40px;
+
+}

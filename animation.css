@@ -1,0 +1,140 @@
+*
+{
+	box-sizing: border-box;
+	position: relative;
+}
+
+
+.ease
+{ 
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	left: 100px;
+	background-color: brown;
+	border: 3px solid green;
+	position: absolute;
+	animation: moving 8s 3 normal ;   /*normal reverse alternate alternate-reverse*/
+	animation-delay: 1;
+	animation-fill-mode: forwards;
+	animation-fill-mode: backwards;
+	animation-fill-mode: both;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	animation-timing-function: ease;
+
+}
+.linear
+{ 
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	left: 200px;
+	background-color: blue;
+	border: 3px solid green;
+	position: absolute;
+	animation: moving 8s 3 normal ;   /*normal reverse alternate alternate-reverse*/
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-fill-mode: backwards;
+	animation-fill-mode: both;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	animation-timing-function: linear;
+
+}
+.easein
+{ 
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	left: 300px;
+	background-color: yellow;
+	border: 3px solid green;
+	position: absolute;
+	animation: moving 8s 3 normal ;   /*normal reverse alternate alternate-reverse*/
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-fill-mode: backwards;
+	animation-fill-mode: both;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	animation-timing-function: ease-in;
+
+}
+.easeout
+{ 
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	left: 400px;
+	background-color: red;
+	border: 3px solid green;
+	position: absolute;
+	animation: moving 8s 3 normal ;   /*normal reverse alternate alternate-reverse*/
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-fill-mode: backwards;
+	animation-fill-mode: both;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	animation-timing-function: ease-out;
+
+}
+.easeinout
+{ 
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	left: 500px;
+	background-color: black;
+	border: 3px solid green;
+	position: absolute;
+	color: white;
+	animation: moving 8s 3 normal ;   /*normal reverse alternate alternate-reverse*/
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-fill-mode: backwards;
+	animation-fill-mode: both;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+
+}
+@keyframes moving
+{
+	0% 
+	{
+		top: 0;
+		/*left: 0;
+		background-color: #2c3e50*/
+	}
+	/*25%
+	{
+		top: 200px;
+		left: 0
+	}
+	
+	50%
+	{
+		top: 200px;
+		left: 200px;
+		background-color: #080;
+		border-radius: 50%
+	}
+	
+	75%
+	{
+		top: 0;
+		left: 200px
+	}*/
+100% 
+	{
+		top: 400px;
+		/*left: 0;
+border-radius:75%;
+background-color: black;*/
+	}
+	
+	
+}

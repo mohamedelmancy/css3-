@@ -1,0 +1,72 @@
+*
+{
+	box-sizing: border-box;
+}
+div, p
+{
+	width: 300px;
+	padding: 10px;
+	border: 1px solid gray;
+	margin: 0;
+	font-size: 30px
+}
+/*div:nth-of-type(2)
+{
+	color: brown;
+}
+div:nth-child(2)
+{
+	color: red;
+}
+div:nth-child(odd)
+{
+color: brown;	
+background-color: red
+}
+div:nth-of-type(odd)
+{
+color: brown;	
+background-color: red
+}div:nth-last-child(2)
+{
+color: brown;	
+background-color: red
+}*/
+
+/*div:nth-last-child(3)/*b ybtdy mn el a5er y3ny hat talet child w lazem ykon div bs ebtdy mn el a5er y3ny lw talet child mn el a5er (p) msh hy3ml 7aga 5ales*/
+/*{
+color: brown;	
+background-color: red
+}
+div:nth-last-of-type(3)/*b ybtdy mn el a5er y3ny hat talet div y3ny hyfdl mashy l7d ma yla2y el div el talet  bs ebtdy mn el a5er*/
+/*{
+color: brown;	
+background-color: green
+}
+div:nth-last-child(odd)/* hat el children el odds bs ebtdy mn el a5er*/
+/*{
+color: brown;	
+background-color: red
+}
+}
+div:nth-last-of-type(even)/* hat el divs el odds bs ebtdy mn el a5er
+{
+color: brown;	
+background-color: red
+}
+div:nth-child(n+4)/* ebtdy mn awl 4 w ent ray7*
+{
+	background-color: black;
+	color: white
+}*/
+/*div:nth-child(-n+4)/* ebtdy mn el awl l7d 4
+{
+	background-color: black;
+	color: white
+} */
+div:nth-child(2n+1)/* 2n+1 = odd*/
+{
+
+	background-color: black;
+	color: white
+}

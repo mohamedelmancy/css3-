@@ -1,0 +1,78 @@
+*
+{
+	box-sizing: border-box;
+}
+/*section :not(p)
+{
+	color: red;
+}*/
+/*section :not(.test)/*555555aly balak mn el space
+{
+	color: red;
+}
+section :first-child
+{
+	font-weight: bold;
+}
+section :not(:first-child)
+{
+	font-weight:bolder;
+	color: green;
+}
+section :last-child
+{
+	font-weight: bolder;
+	color: red;
+}
+section :not(:first-child)
+{
+	font-weight: bolder;
+	color: gray;
+}
+section div:first-child/* awl child lazem ykon no3o div a3mlel klam dh 
+{
+	font-weight: bold;
+}
+section div:first-of-type/* awl child  div
+{
+color: #ff365f
+}*/
+/**************************************=======================================================***************************************************/
+/**************************************=======================================================***************************************************/
+/**************************************======================= mal7oza hama ==================****************************************************/
+/*lw section:first-child; mn 3'er space m3nah en awl child mn no3 section >> mshy el klam dh 3 section kolo*/
+/* lw secrion first-child; with space m3nah awl child gwa el kol section*/
+/**************************************=======================================================***************************************************/
+/**************************************=======================================================***************************************************/
+
+section :first-child
+{
+	font-weight: bold;
+	color: red;
+}
+section :only-child/* y3ny el  child el w7eed elly gwa el section dh */
+{
+	font-size: 30px;
+	color: brown;
+}
+
+section:only-child/* y3ny el section hwa nfso w7eed f el parent bta3o*/
+{
+	font-size: 40px;
+	color: gray;
+}
+p:only-of-type
+{
+	font-size: 60px;
+	color: yellow;
+}
+p :only-of-type
+{
+	font-size: 60px;
+	color: #2c3e54;
+}
+::selection
+{
+	background-color: #333;
+	color:red;
+}

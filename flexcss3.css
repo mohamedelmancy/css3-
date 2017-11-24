@@ -1,0 +1,103 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body
+{
+	direction: ltr;
+}
+.container
+{
+
+	width: 1000px;
+	height: 500px;
+	border: 1.5px solid  red;
+/*	padding: 10px;*/
+     box-shadow: 0 0 0 20px #2c3e50 ;
+	margin:50px auto;
+    background: #EEE;
+	/*display: inline-flex;/* lw 3awz t7t ganbo 7aga tania w ybtdy mn awl el str*/
+	/*display: flex;
+	flex-direction: row; /* Default */
+/*	flex-direction: row-reverse;/* 3ks el row  */
+   /* flex-direction: column;
+    flex-direction: column-reverse;*/
+    display : flex;
+   	/*flex-direction : row; /* Default */
+    /*flex-wrap: nowrap; /* m3naha mfesh mrona y3ny lw el content kbr 3n el div msh hytl3o bara wla hy2dr y7tweh fa hysebo msh hy3'er ay 7aga*/
+  /*  flex-wrap:wrap;
+    flex-wrap: wrap-reverse;
+    flex-flow: row wrap ;*/
+    /*flex-direction: row-reverse;/* 5lf el tarteb w bd2 mn el a5er*/
+    /*justify-content: flex-end;/* mn 3;er ma y5lf el tarteb bd2 bs mn el a5er*/
+    /*justify-content: flex-start;/* zay el flex-direction : row;*/
+   /* justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;*/
+  /*  align-items: stretch;/* Dafault*/
+   /* align-items: flex-start;/* el far2 bynha wl justify-content en hya sh3'ala 3mody f e; saf7a lkn justify-content sh3'ala row */
+  /*  align-items: flex-end;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: center;/* el far2 bynha wl justify-content en hya sh3'ala y7ot el div fo2 b3d lkn justify-content sh3'ala y7thm gnb b3d*/
+
+
+}
+.container div
+{
+	/*width :290.34px; /* de kda kollo 897 y3ny ana sybt 3px f 3shan y3rd el 3 div lazem el container width minimum 897 yny m7tsh la padding wala margin wla border la2y div gwa el container bs ynf3 a3ml border b <= 1.5px  container onlyyyyyyyyyyyyyy*/
+	/*/width: 300px;*/
+	max-height:100px;
+	color: white;
+	padding:10px;
+	border: 2px solid blue;
+	margin: 1px;
+	flex-grow: 0;/* lw fe zyada f el container mt7othash  fe dh >>>>>> elly flex-grow bta3o akber hya5od goz2 akber w lw mtsaween hya5do 2d b3d*/
+
+}
+
+.container .one
+{
+
+background-color: green;
+/*order: 2*/
+/*flex-grow: 1;/* lw fe zyada f el container 70t el zyada fe dh*/
+flex-basis:600px; /* kda ana 7ddtlo width msh hyzed wla y2l 3no mlosh da3wa b ay 7aga bt7sl swa2 zwdt el klam elly feh aw 22llto */
+
+}
+.container .two
+{
+background-color: blue;
+/*flex-grow: 1;/* lw fe zyada f el container 70t el zyada fe dh*/
+/*order: 7*/
+flex-basis: auto;
+     /*******flex:grow shrink basis *********/
+     flex: 0 1 auto; 
+}
+.container .three
+{
+background-color: red;
+/*order: 4*/
+flex-basis: auto;
+
+}
+
+.container .four
+{
+background-color: black;
+/*order: 1*/
+/*flex-shrink: 0;/* y3ny taklos 3ks el flex-grow tmamn */
+flex-basis: auto;
+
+
+}
+/*.n
+{
+	display: inline-block;
+	background: #EEE;
+	border: 2px solid  red;
+	padding: 10px;
+
+}*/

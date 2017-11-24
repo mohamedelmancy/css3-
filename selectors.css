@@ -1,0 +1,28 @@
+div
+{
+	border: 1px solid red;
+
+}
+p ~ span /*p whose next is span OR ay span 2blha p*/
+{
+	color: blue;
+}
+[class^="mo"]/* ay class b ybtdy b mo*/
+{
+	color: green;
+}
+[role^="tr"]/* ay role b ybtdy b tr*/
+{
+	font-size: 30px;
+}
+[class $="d"]/*ay class b ynthy b d*/
+{
+	color: red;
+	font-weight: bold;	
+
+}
+[class*="o"]
+
+{
+	font-size: 50px;
+}
